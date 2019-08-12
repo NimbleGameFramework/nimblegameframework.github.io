@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./index.js"></script>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="icon" href="./index.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="The web rpg framework is a system that allows developers and designers to create rpg games using html, css, and javascript">
+        <meta name="robots" content="index, nofollow">
+        <meta name="revisit-after" content="30 days">
+        <link rel="manifest" href="/manifest.json">
+        <title>Felipe Cueto</title>
+    </head>
+    <header id="MainHeader">
+        <span class="MainMenuToggle" onclick="toggleMainMenu()">&#9776;</span>
+    </header>
+    <body>
+        <div id="MainMenu">
+            <div id="MainMenuEmptySpace"></div>
+            <button class="MainMenuOption" onclick="setFrame('./examples/index.html')">Examples</button>
+            <a target="_blank" href="https://github.com/web-rpg-framework"><button class="MainMenuOption">Github</button></a>
+        </div>
+        <iframe id="DynamicFrame" frameBorder="0" src="./app/home/index.html"></iframe>
+    </body>
+</html>

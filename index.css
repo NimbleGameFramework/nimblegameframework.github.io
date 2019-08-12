@@ -1,0 +1,154 @@
+body {
+  font-family: Calibri;
+  background-color: #161b33;
+}
+
+#MainMenu {
+  padding-top: 2%;
+  background-color: black;
+}
+
+.MainMenuOption {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #161b33;
+  color: #7e8287;
+  padding: 5px;
+  width: 100%;
+  border: 0px;
+}
+
+.MainMenuToggle:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.MainMenuOption:hover {
+  background-color: #474973;
+  cursor: pointer;
+}
+
+#MainMenu {
+  background-color: #161b33;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+#DynamicFrame {
+  background-color: white;
+}
+
+@media (max-width:768px) {
+  #MainMenuEmptySpace {
+    height: 0px;
+  }
+
+  .MainMenuOption {
+    font-size: 30px;
+  }
+
+  .HideWhenSmall {
+    display: none;
+  }
+
+  #MainHeader {
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 10%;
+    background-color: #39393a;
+    color: white;
+    font-size: 7vh;
+    padding-left: 3%;
+    width: 97%;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+  }
+
+  .MainMenuToggle {
+    display: inline;
+  }
+
+  #MainMenu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #DynamicFrame {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+    z-index: 0;
+  }
+}
+
+@media (min-width:768px) {
+  #MainMenuEmptySpace {
+    height: 3vh;
+  }
+
+  .MainMenuOption {
+    font-size: 15px;
+  }
+
+  #MainHeader {
+    display: none;
+  }
+
+  .MainMenuToggle {
+    display: none;
+  }
+
+  #MainMenu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 10%;
+  }
+
+  #DynamicFrame {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    height: 100%;
+    width: 90%
+  }
+}
