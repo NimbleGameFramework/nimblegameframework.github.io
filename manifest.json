@@ -3,8 +3,13 @@
   "name": "web-rpg-framework",
   "description": "The web rpg framework is a system that allows developers and designers to create rpg games using html, css, and javascript",
   "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    }
   ],
-  "start_url": "/",
+  "start_url": "/index.html",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
