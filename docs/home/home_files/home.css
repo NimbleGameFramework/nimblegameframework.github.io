@@ -1,0 +1,69 @@
+.Home{
+  font-family: Calibri;
+  font-size: 15px;
+  padding-top: 3vh;
+  padding-left:4%;
+  padding-right:4%;
+  padding-bottom: 2vh;
+}
+
+h2{
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+body{
+  padding:0;
+  margin: 0;
+}
+
+p{
+	text-align:justify;
+}
+
+#perfil{
+	width:200px;
+	border-radius: 50%;
+}
+#galeria{
+	width:75%;
+	border-radius: 10%;
+}
+
+.center{
+	text-align: center;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.indent1{
+	padding-left: 50px;
+}
+
+.indent2{
+	padding-left: 100px;
+}
+
+div.gallery {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
