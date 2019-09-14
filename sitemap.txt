@@ -1,0 +1,3 @@
+https://web-rpg-framework.github.io/index.html
+https://web-rpg-framework.github.io/docs/home/index.html
+https://web-rpg-framework.github.io/examples/index.html
