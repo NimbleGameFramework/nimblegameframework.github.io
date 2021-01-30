@@ -1,4 +1,4 @@
-# Web RPG Framework:
+# Nimble Game Framework:
 This framework helps you build web based rpg games. It tries to provide the tools that you will need to design and create a great game. It's meant to be a open, free alternative to tools like RPG Maker. It does not seek to be as complete or as in depth as others, however it does try to open the door for further development.
 
 ## Work to be done:
