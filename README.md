@@ -24,7 +24,7 @@ This framework helps you build web based rpg games. It tries to provide the tool
 5. Allow entity movement animations (Predefined paths).
 6. Allow for onClick interaction with elements in the world
 
-## Used Libraries:
+## Libraries:
 
 https://github.com/jquery/jquery
 
